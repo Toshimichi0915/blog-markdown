@@ -20,17 +20,17 @@ pagesディレクトリで好きな内容の記事を書いたら、index.json�
     "pagesディレクトリのファイル名": {
         "name": "記事の見出し",
         "tags": ["タグ1", "タグ2"],
-        "date": "現在時刻（UNIX秒 UTC）"
+        "date": 1648664352
     }
 }
 ```
 
-dateが文字列なのは単純に設計ミスです。後で変えるかもしれません。
+dateにはブログを記事を書いた時刻（UTC、Epoc秒）を指定してください。
 
 
 ## 2. アプリケーション[リポジトリ](https://github.com/Toshimichi0915/blog)をフォークする
 
-[このURL](https://github.com/Toshimichi0915/blog)からソースコードをフォークしてください。その次にリポジトリのURLが至るところに散らばっている（笑）ので、自分のリポジトリのURLに書き換えてください。
+[このURL](https://github.com/Toshimichi0915/blog)からソースコードをフォークしてください。その次にリポジトリのURLがcore/posts.jsに書かれているので、自分のリポジトリのURLに書き換えてください。またpages/components/navbar.jsにはナビゲーションバーがあるので、ナビゲーションバーも自分のお好みで変更してください。
 
 ### 3. Vercelにアップロードする
 
