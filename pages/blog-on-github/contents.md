@@ -25,10 +25,10 @@ pagesディレクトリで好きな内容の記事を書いたら、index.json�
 }
 ```
 
-dateにはブログを記事を書いた時刻（UTC、Epoc秒）を指定してください。
+dateにはブログを記事を書いた時刻（UTC、Epoch秒）を指定してください。
 
 
-## 2. アプリケーション[リポジトリ](https://github.com/Toshimichi0915/blog)をフォークする
+## 2. アプリケーションの[リポジトリ](https://github.com/Toshimichi0915/blog)をフォークする
 
 [このURL](https://github.com/Toshimichi0915/blog)からソースコードをフォークしてください。その次にリポジトリのURLがcore/posts.jsに書かれているので、自分のリポジトリのURLに書き換えてください。またpages/components/navbar.jsにはナビゲーションバーがあるので、ナビゲーションバーも自分のお好みで変更してください。
 
