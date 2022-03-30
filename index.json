@@ -1,12 +1,12 @@
 {
-    "use-of-static-factory-method": {
-        "name": "Static factory methodの使い所",
-        "tags": ["Java"],
-        "date": 1648553021
-    },
-    "blog-on-github": {
-        "name": "GitHubとVercelで無料のブログを作る",
-        "tags": ["Blog"],
-        "date": 1648660144
-    }
+  "blog-on-github": {
+    "name": "GitHubとVercelで無料のブログを作る",
+    "tags": ["Blog"],
+    "date": 1648660144
+  },
+  "use-of-static-factory-method": {
+    "name": "Static factory methodの使い所",
+    "tags": ["Java"],
+    "date": 1648553021
+  }
 }
