@@ -1,4 +1,9 @@
 {
+  "gradle-sync-error": {
+    "name": "Gradle Syncエラーの修正（IntelliJ）",
+    "tags": ["Java"],
+    "date": 1648836936
+  },
   "blog-on-github": {
     "name": "GitHubとVercelで無料のブログを作る",
     "tags": ["Blog"],
