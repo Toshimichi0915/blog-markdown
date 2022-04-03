@@ -6,7 +6,7 @@
 
 ## 使い方
 
-1. GitHubからpages/<ID>/contents.mdにブログの記事を書きます。
+1. GitHubからpages/&lt;ID&gt;/contents.mdにブログの記事を書きます。
 2. `python3 generate.py` を実行します。
 3. ブログのタイトルとタグを半角スペース区切りで入力します。
 4. `git push origin master` を実行します。
