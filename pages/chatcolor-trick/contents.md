@@ -10,7 +10,14 @@ chest.setCustomName("Chest " + ChatColorEncoder.encode(保存するデータ));
 chest.update(true, false);
 ```
 
-としてデータを見えない文字列に変換して保存してください。
+としてデータを見えない文字列に変換して保存してください。またデータを読み取る際は
+
+```java
+ChatColorEncoder.decode(chest.getCustomName().replaceFirst("Chest ", ""));
+```
+
+とすることで可能です。
+
 ChatEncoderのクラスは下に貼り付けるのでそのまま使ってください（ユニットテスト済みです）。
 
 ```java
