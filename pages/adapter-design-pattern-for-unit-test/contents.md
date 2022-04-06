@@ -1,6 +1,6 @@
 # ユニットテストのためのAdapter Design Pattern
 
-API間での差分を吸収するときに使う。また使用するAPIが余りにも巨大でユニットテストし辛いとき、Adapter Design Patternを使えば解決できる場合がある。
+使用するAPIが余りにも巨大でユニットテストし辛いとき、Adapter Design Patternを使えば解決できる場合がある。
 
 ## 問題のコード
 
@@ -155,7 +155,7 @@ public class InMemoryWallet implements Wallet {
 ProductService productService = new ProductService(new InMemoryWallet(), logger);
 ```
 
-とすれば良いだけである。
+とすれば良い。
 
 ## 結論
 
