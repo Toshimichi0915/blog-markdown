@@ -1,6 +1,6 @@
 # ユニットテストのためのAdapter Design Pattern
 
-使用するAPIが余りにも巨大でユニットテストし辛いとき、Adapter Design Patternを使えば解決できる場合がある。
+使用するAPIが余りにも巨大でユニットテストし辛いとき、Adapter Patternを使えば解決できる場合がある。
 
 ## 問題のコード
 
@@ -159,4 +159,4 @@ ProductService productService = new ProductService(new InMemoryWallet(), logger)
 
 ## 結論
 
-以上により、ProductServiceのコンストラクタにInMemoryWalletを渡すことでメモリ上でユーザーの入金・出金を管理できるようになった。もし巨大なAPIに遭遇してユニットテストが行えないケースがある場合、Adapter Design Patternを使ってみるといいかもしれない。
+以上により、ProductServiceのコンストラクタにInMemoryWalletを渡すことでメモリ上でユーザーの入金・出金を管理できるようになった。もし巨大なAPIに遭遇してユニットテストが行えないケースがある場合、Adapter Patternを使ってみるといいかもしれない。
