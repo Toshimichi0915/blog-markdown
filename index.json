@@ -35,5 +35,12 @@
       "Docker"
     ],
     "date": 1649037012
+  },
+  "adapter-design-pattern-for-unit-test": {
+    "name": "ユニットテストのためのAdapter Design Pattern",
+    "tags": [
+      "Java"
+    ],
+    "date": 1649223873
   }
 }
