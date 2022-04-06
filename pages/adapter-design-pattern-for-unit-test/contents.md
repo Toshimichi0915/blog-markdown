@@ -1,4 +1,4 @@
-# ユニットテストのためのAdapter Design Pattern
+# ユニットテストのためのAdapter Pattern
 
 使用するAPIが余りにも巨大でユニットテストし辛いとき、Adapter Patternを使えば解決できる場合がある。
 
