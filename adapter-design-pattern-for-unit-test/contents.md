@@ -1,4 +1,4 @@
-# 1. Adapter Design Patternとユニットテスト
+# ユニットテストのためのAdapter Design Pattern
 
 API間での差分を吸収するときに使う。また使用するAPIが余りにも巨大でユニットテストし辛いとき、Adapter Design Patternを使えば解決できる場合がある。
 
