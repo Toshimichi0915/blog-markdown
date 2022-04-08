@@ -42,5 +42,12 @@
       "Java"
     ],
     "date": 1649223873
+  },
+  "when-to-use-hashset": {
+    "name": "HashSetの使い所",
+    "tags": [
+      "Java"
+    ],
+    "date": 1649411049
   }
 }
